@@ -5,6 +5,7 @@ node_modules/
 build/
 dist/
 public/
+DOC/
 
 # Dependency directories
 jspm_packages/
