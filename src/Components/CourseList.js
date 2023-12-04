@@ -1,17 +1,15 @@
 import React, { useEffect,useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchCourses } from '../Store/courseSlice';
-import Container from '@mui/material/Container';
 import TextField from '@mui/material/TextField';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import { useNavigate, useParams } from 'react-router-dom';
-import courseModel from './courseModel';
+import { useNavigate } from 'react-router-dom';
 import Typography from '@mui/material/Typography';
 import { Button } from '@mui/material';
 
 const CourseList = ({ course }) => {
-  const [courseList, setCourseList] = useState(courseModel);
+ // const [courseList, setCourseList] = useState(courseModel);
   const [searchQuery, setSearchQuery] = useState('');
   const navigate = useNavigate();
 
@@ -36,6 +34,7 @@ const CourseList = ({ course }) => {
   // const filteredCourses = courses.filter((course) =>
   //   course.name.toLowerCase().includes(searchQuery.toLowerCase())
   // );
+
 
   return (
     <div  maxWidth="md"  >

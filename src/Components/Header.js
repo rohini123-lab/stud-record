@@ -13,15 +13,17 @@ return (
         height: "100%",
         display: "flex",
         flexDirection: "row",
-        justifyContent: "space-between",
+        justifyContent: "left",
       }}
     >
+  
       <Link to="/" style={{color:'#fff'}}>
      
-      Courses 
+      Course list
       </Link>
-      <Link to="/student" style={{color:'#fff'}}>
-      Student
+      
+      <Link to="/student" style={{color:'#fff', marginLeft:20}}>
+      Students Dashboard
       </Link>
     </Toolbar>
     </Container>

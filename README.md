@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#### Install Dependencies
+
+Before running the React app, ensure that you have Node.js and npm (Node Package Manager) installed on your machine. If not, you can download and install them from the official website: [Node.js](https://nodejs.org/).
+
+Next, navigate to the project folder using your terminal or command prompt and run the following command to install project dependencies:
+
+### `npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:
